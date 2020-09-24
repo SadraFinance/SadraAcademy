@@ -1,31 +1,33 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `Rocket Docs`,
-    defaultTitle: `Rocket Docs`,
-    siteTitleShort: `Rocket Docs`,
-    siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
-    siteUrl: `https://rocketdocs.netlify.com`,
-    siteAuthor: `@rocketseat`,
+    siteTitle: `آکادمی صدرا`,
+    defaultTitle: `Sadra Academy | آکادمی صدرا`,
+    siteTitleShort: `Sadra Academy`,
+    siteDescription: `آکادمی صدرا | آموزش معاملات الگوریتمی`,
+    siteUrl: `https://academy.sadrafinance.ir`,
+    siteAuthor: `@MohammadMaso`,
     siteImage: `/banner.png`,
-    siteLanguage: `en`,
-    themeColor: `#8257E6`,
+    siteLanguage: `fa`,
+    themeColor: `#0067A5`,
     basePath: `/`,
   },
+  
   plugins: [
+    'gatsby-plugin-dark-mode',
     {
       resolve: `@rocketseat/gatsby-theme-docs`,
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        githubUrl: `https://github.com/rocketseat/gatsby-themes`,
+        githubUrl: `https://github.com/SadraFinance/SadraAcademy`,
         baseDir: `examples/gatsby-theme-docs`,
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rocketseat Gatsby Themes`,
-        short_name: `RS Gatsby Themes`,
+        name: `Sadra Academy`,
+        short_name: `Sadra Academy`,
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
@@ -43,9 +45,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://rocketdocs.netlify.com`,
+        siteUrl: `https://academy.sadrafinance.ir`,
       },
     },
+    
     `gatsby-plugin-offline`,
   ],
 };

@@ -1,24 +1,25 @@
 # Sidebar navigation
 
-- label: 'Introduction'
+- label: 'معرفی'
   link: '/'
-- label: 'Getting started'
-  link: '/getting-started'
-- label: Usage
+
+- label: دوره مقدماتی
   items:
-    - label: 'Creating docs'
+    - label: '۱-مقدمه'
       link: '/usage/creating-docs'
-    - label: 'Navigation'
+    - label: '۲-مقدمه‌ای بر Python'
       link: '/usage/navigation'
-    - label: 'Shadowing'
+    - label: '۳-مقدمه ای بر NumPy'
       link: '/usage/shadowing'
-- label: More
+- label: بیشتر
   items:
-    - label: FAQ
+    - label: پرسش و پاسخ
       link: /faq
-    - label: Changelog
+    - label: گواهی اتمام دوره
       link: /changelog
-- label: Community
+- label: ارجاع
   items:
-    - label: 'Github'
-      link: https://github.com/rocketseat/gatsby-themes
+    - label: 'تالار گفتگو' 
+      link: https://github.com/SadraFinance/SadraAcademy
+    - label: ' گیت هاب ' 
+      link: https://github.com/SadraFinance/SadraAcademy
